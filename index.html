@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1d31b5f51285e36c085080ea879c140d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1d31b5f51285e36c085080ea879c140d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1d31b5f51285e36c085080ea879c140d = L.map(
+                "map_1d31b5f51285e36c085080ea879c140d",
+                {
+                    center: [36.7783, -119.4179],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_16552a285098c33aa33136218373ca20 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+            var marker_60b29a999765093582d8b1ec5c6317b8 = L.marker(
+                [33.6109, -117.8602],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_9195792659ab257c7ce0f6fbd42116de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39844210d2ea6c8bd974b34c14eacf1b = $(`<div id="html_39844210d2ea6c8bd974b34c14eacf1b" style="width: 100.0%; height: 100.0%;">State Route 73 (San Joaquin Hills Toll Road)</div>`)[0];
+            popup_9195792659ab257c7ce0f6fbd42116de.setContent(html_39844210d2ea6c8bd974b34c14eacf1b);
+        
+
+        marker_60b29a999765093582d8b1ec5c6317b8.bindPopup(popup_9195792659ab257c7ce0f6fbd42116de)
+        ;
+
+        
+    
+    
+            marker_60b29a999765093582d8b1ec5c6317b8.bindTooltip(
+                `<div>
+                     State Route 73 (San Joaquin Hills Toll Road)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46e50d45830fef22e33ef538031af5df = L.marker(
+                [33.6471, -117.7723],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_e9dd7fd59d0d80319577ae4450671156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c562ab556cecca3488721cbc81c200d = $(`<div id="html_6c562ab556cecca3488721cbc81c200d" style="width: 100.0%; height: 100.0%;">State Route 133 (Laguna Freeway)</div>`)[0];
+            popup_e9dd7fd59d0d80319577ae4450671156.setContent(html_6c562ab556cecca3488721cbc81c200d);
+        
+
+        marker_46e50d45830fef22e33ef538031af5df.bindPopup(popup_e9dd7fd59d0d80319577ae4450671156)
+        ;
+
+        
+    
+    
+            marker_46e50d45830fef22e33ef538031af5df.bindTooltip(
+                `<div>
+                     State Route 133 (Laguna Freeway)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a53b03231ebcfbf94aa2874336522ee2 = L.marker(
+                [33.6869, -117.5985],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_5e21783342c3f7376d1228cfb3b3d37a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7431dd7e346c98e7785463df3674d730 = $(`<div id="html_7431dd7e346c98e7785463df3674d730" style="width: 100.0%; height: 100.0%;">State Route 241 (Foothill Toll Road)</div>`)[0];
+            popup_5e21783342c3f7376d1228cfb3b3d37a.setContent(html_7431dd7e346c98e7785463df3674d730);
+        
+
+        marker_a53b03231ebcfbf94aa2874336522ee2.bindPopup(popup_5e21783342c3f7376d1228cfb3b3d37a)
+        ;
+
+        
+    
+    
+            marker_a53b03231ebcfbf94aa2874336522ee2.bindTooltip(
+                `<div>
+                     State Route 241 (Foothill Toll Road)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a343b90f790cc52953a01af1cecb0b20 = L.marker(
+                [33.7148, -117.7861],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_5068be42676d97d6d601b20e9a017b80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bec116796a885938633fa807c9f609af = $(`<div id="html_bec116796a885938633fa807c9f609af" style="width: 100.0%; height: 100.0%;">State Route 261</div>`)[0];
+            popup_5068be42676d97d6d601b20e9a017b80.setContent(html_bec116796a885938633fa807c9f609af);
+        
+
+        marker_a343b90f790cc52953a01af1cecb0b20.bindPopup(popup_5068be42676d97d6d601b20e9a017b80)
+        ;
+
+        
+    
+    
+            marker_a343b90f790cc52953a01af1cecb0b20.bindTooltip(
+                `<div>
+                     State Route 261
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34042013a4b82eb845459cb1195cb6f2 = L.marker(
+                [32.6141, -116.9534],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_21858d7f0b9eb3c7b773b3c1e3ccd9f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ff30cdb8690d2b064e4a3d54a372241 = $(`<div id="html_1ff30cdb8690d2b064e4a3d54a372241" style="width: 100.0%; height: 100.0%;">South Bay Expressway (State Route 125)</div>`)[0];
+            popup_21858d7f0b9eb3c7b773b3c1e3ccd9f6.setContent(html_1ff30cdb8690d2b064e4a3d54a372241);
+        
+
+        marker_34042013a4b82eb845459cb1195cb6f2.bindPopup(popup_21858d7f0b9eb3c7b773b3c1e3ccd9f6)
+        ;
+
+        
+    
+    
+            marker_34042013a4b82eb845459cb1195cb6f2.bindTooltip(
+                `<div>
+                     South Bay Expressway (State Route 125)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4903d3adfc7fbc2ccbda7693874350e = L.marker(
+                [33.8647, -117.6],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_b132cd71a5cccf3431b6b8de8cb7d4ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf40de48500e5a48a32251714e3d8860 = $(`<div id="html_cf40de48500e5a48a32251714e3d8860" style="width: 100.0%; height: 100.0%;">91 Express Lanes</div>`)[0];
+            popup_b132cd71a5cccf3431b6b8de8cb7d4ca.setContent(html_cf40de48500e5a48a32251714e3d8860);
+        
+
+        marker_f4903d3adfc7fbc2ccbda7693874350e.bindPopup(popup_b132cd71a5cccf3431b6b8de8cb7d4ca)
+        ;
+
+        
+    
+    
+            marker_f4903d3adfc7fbc2ccbda7693874350e.bindTooltip(
+                `<div>
+                     91 Express Lanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d17dce13bc9976464ae3e8cbfb68068e = L.marker(
+                [32.9178, -117.1285],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_8ea68204d6c5caf73765c56add7f362f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b844264e6033b6d018602aab251ddfa6 = $(`<div id="html_b844264e6033b6d018602aab251ddfa6" style="width: 100.0%; height: 100.0%;">I-15 Express Lanes</div>`)[0];
+            popup_8ea68204d6c5caf73765c56add7f362f.setContent(html_b844264e6033b6d018602aab251ddfa6);
+        
+
+        marker_d17dce13bc9976464ae3e8cbfb68068e.bindPopup(popup_8ea68204d6c5caf73765c56add7f362f)
+        ;
+
+        
+    
+    
+            marker_d17dce13bc9976464ae3e8cbfb68068e.bindTooltip(
+                `<div>
+                     I-15 Express Lanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7724f11cedbee016950dadff05483251 = L.marker(
+                [37.6614, -121.8873],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_058b580aa80ccbfcfed606e630d56a28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27e419156c1cecddbc2966b6498fe226 = $(`<div id="html_27e419156c1cecddbc2966b6498fe226" style="width: 100.0%; height: 100.0%;">I-680 Express Lanes</div>`)[0];
+            popup_058b580aa80ccbfcfed606e630d56a28.setContent(html_27e419156c1cecddbc2966b6498fe226);
+        
+
+        marker_7724f11cedbee016950dadff05483251.bindPopup(popup_058b580aa80ccbfcfed606e630d56a28)
+        ;
+
+        
+    
+    
+            marker_7724f11cedbee016950dadff05483251.bindTooltip(
+                `<div>
+                     I-680 Express Lanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49386ae28a60815a7dec036f5b4ac1c4 = L.marker(
+                [37.8199, -122.4783],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_4ebb267d2d651f9963e8343d7be1b4cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df0753cd1b7585fd36b11942b9b7a130 = $(`<div id="html_df0753cd1b7585fd36b11942b9b7a130" style="width: 100.0%; height: 100.0%;">Golden Gate Bridge</div>`)[0];
+            popup_4ebb267d2d651f9963e8343d7be1b4cd.setContent(html_df0753cd1b7585fd36b11942b9b7a130);
+        
+
+        marker_49386ae28a60815a7dec036f5b4ac1c4.bindPopup(popup_4ebb267d2d651f9963e8343d7be1b4cd)
+        ;
+
+        
+    
+    
+            marker_49386ae28a60815a7dec036f5b4ac1c4.bindTooltip(
+                `<div>
+                     Golden Gate Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86ef46afd53c2055b0945cb479f421a7 = L.marker(
+                [37.7986, -122.377],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_f9582093904209cd497e4f71a76cf74d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af6e76bdb7e68b7649184922e9486012 = $(`<div id="html_af6e76bdb7e68b7649184922e9486012" style="width: 100.0%; height: 100.0%;">San Francisco-Oakland Bay Bridge</div>`)[0];
+            popup_f9582093904209cd497e4f71a76cf74d.setContent(html_af6e76bdb7e68b7649184922e9486012);
+        
+
+        marker_86ef46afd53c2055b0945cb479f421a7.bindPopup(popup_f9582093904209cd497e4f71a76cf74d)
+        ;
+
+        
+    
+    
+            marker_86ef46afd53c2055b0945cb479f421a7.bindTooltip(
+                `<div>
+                     San Francisco-Oakland Bay Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acc0f1b4dc6cc9c395ead81ee89a3b1a = L.marker(
+                [38.0451, -122.1355],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_c281d0c6ed2a08c3a7c8e65fa23a7b49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00a0b4d05ea04644d0baabeadc3b0dbf = $(`<div id="html_00a0b4d05ea04644d0baabeadc3b0dbf" style="width: 100.0%; height: 100.0%;">Benicia-Martinez Bridge</div>`)[0];
+            popup_c281d0c6ed2a08c3a7c8e65fa23a7b49.setContent(html_00a0b4d05ea04644d0baabeadc3b0dbf);
+        
+
+        marker_acc0f1b4dc6cc9c395ead81ee89a3b1a.bindPopup(popup_c281d0c6ed2a08c3a7c8e65fa23a7b49)
+        ;
+
+        
+    
+    
+            marker_acc0f1b4dc6cc9c395ead81ee89a3b1a.bindTooltip(
+                `<div>
+                     Benicia-Martinez Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b59d6c244497ec0d63e16b7a974bcc3f = L.marker(
+                [37.9255, -122.388],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_61814c8eac042373dc5244a01add51e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a98695f24061516dd05599ff21b374d = $(`<div id="html_2a98695f24061516dd05599ff21b374d" style="width: 100.0%; height: 100.0%;">Richmond-San Rafael Bridge</div>`)[0];
+            popup_61814c8eac042373dc5244a01add51e3.setContent(html_2a98695f24061516dd05599ff21b374d);
+        
+
+        marker_b59d6c244497ec0d63e16b7a974bcc3f.bindPopup(popup_61814c8eac042373dc5244a01add51e3)
+        ;
+
+        
+    
+    
+            marker_b59d6c244497ec0d63e16b7a974bcc3f.bindTooltip(
+                `<div>
+                     Richmond-San Rafael Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2df1adf01297c4a4583dbaff6893ed15 = L.marker(
+                [37.5735, -122.2646],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_82d67e0a61874c4b51add461abeb9939 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3c2681def70ceb1aa60d920bd075d00 = $(`<div id="html_a3c2681def70ceb1aa60d920bd075d00" style="width: 100.0%; height: 100.0%;">San Mateo-Hayward Bridge</div>`)[0];
+            popup_82d67e0a61874c4b51add461abeb9939.setContent(html_a3c2681def70ceb1aa60d920bd075d00);
+        
+
+        marker_2df1adf01297c4a4583dbaff6893ed15.bindPopup(popup_82d67e0a61874c4b51add461abeb9939)
+        ;
+
+        
+    
+    
+            marker_2df1adf01297c4a4583dbaff6893ed15.bindTooltip(
+                `<div>
+                     San Mateo-Hayward Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_949451ace38cdcee94f801d7f1ab84d2 = L.marker(
+                [38.0576, -122.23],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_11b7e8332a2997f1710ddc8943d032bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03aecdbc2f989f7cd69553090c32456d = $(`<div id="html_03aecdbc2f989f7cd69553090c32456d" style="width: 100.0%; height: 100.0%;">Carquinez Bridge</div>`)[0];
+            popup_11b7e8332a2997f1710ddc8943d032bc.setContent(html_03aecdbc2f989f7cd69553090c32456d);
+        
+
+        marker_949451ace38cdcee94f801d7f1ab84d2.bindPopup(popup_11b7e8332a2997f1710ddc8943d032bc)
+        ;
+
+        
+    
+    
+            marker_949451ace38cdcee94f801d7f1ab84d2.bindTooltip(
+                `<div>
+                     Carquinez Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe231e78fdd58942c8a81c9b374250fa = L.marker(
+                [38.0185, -121.805],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_9a0df145e886d99daf6a4a90e2f77ce3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7f832834c423041904498f6c06c3646 = $(`<div id="html_c7f832834c423041904498f6c06c3646" style="width: 100.0%; height: 100.0%;">Antioch Bridge</div>`)[0];
+            popup_9a0df145e886d99daf6a4a90e2f77ce3.setContent(html_c7f832834c423041904498f6c06c3646);
+        
+
+        marker_fe231e78fdd58942c8a81c9b374250fa.bindPopup(popup_9a0df145e886d99daf6a4a90e2f77ce3)
+        ;
+
+        
+    
+    
+            marker_fe231e78fdd58942c8a81c9b374250fa.bindTooltip(
+                `<div>
+                     Antioch Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_716af1cfaac42da2188683293d260739 = L.marker(
+                [37.5062, -122.1238],
+                {}
+            ).addTo(map_1d31b5f51285e36c085080ea879c140d);
+        
+    
+        var popup_36909dda6fecceb9471d68627de9788d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_328201860ec2438e0284c57d9f6c6e99 = $(`<div id="html_328201860ec2438e0284c57d9f6c6e99" style="width: 100.0%; height: 100.0%;">Dumbarton Bridge</div>`)[0];
+            popup_36909dda6fecceb9471d68627de9788d.setContent(html_328201860ec2438e0284c57d9f6c6e99);
+        
+
+        marker_716af1cfaac42da2188683293d260739.bindPopup(popup_36909dda6fecceb9471d68627de9788d)
+        ;
+
+        
+    
+    
+            marker_716af1cfaac42da2188683293d260739.bindTooltip(
+                `<div>
+                     Dumbarton Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
